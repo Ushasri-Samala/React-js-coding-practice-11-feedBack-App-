@@ -1,0 +1,57 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  padding: 30px;
+}
+.header {
+  text-align: center;
+}
+.emoji-container {
+  display: flex;
+  justify-content: center;
+}
+.emoji {
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  margin-bottom: 0;
+}
+.emoji-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-type {
+  margin-top: 0;
+}
+.response-container {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  height: 40px;
+  width: 40px;
+}
+.feedback {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.love-emoji-type {
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
